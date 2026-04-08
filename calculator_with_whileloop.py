@@ -1,5 +1,5 @@
 
-# while lopp calculator with exit
+# while loop calculator ( 2 digits) with exit
 
 while True:
     print("Select Operation:")
@@ -12,8 +12,8 @@ while True:
     x= int(input("enter the choice "))
     if(x>0 and x<=4):
            
-           a= int(input("enter the value"))
-           b= int(input("enter the value"))
+           a= int(input("enter the 1st value = "))
+           b= int(input("enter the 2nd value = "))
            if (x==1):
                   c=a+b
                   print(c)

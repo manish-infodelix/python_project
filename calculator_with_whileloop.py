@@ -38,6 +38,7 @@ while True:
        print("exit from calculator")
        break
     else:
+        print("here is conflict data ")
         print("this is second print to chekc conflict")
 
 

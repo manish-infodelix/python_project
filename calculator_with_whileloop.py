@@ -8,7 +8,7 @@ while True:
     print("3. Multiplication (*)")
     print("4. Division (/)")
     print("5. power (**)")
-    print("6. floor devision (//) ")
+    print("6. floor division (//) ")
     print("7. exit form calculator")
     
     x= int(input("enter the choice "))

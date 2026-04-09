@@ -8,10 +8,11 @@ while True:
     print("3. Multiplication (*)")
     print("4. Division (/)")
     print("5. power (**)")
-    print("6. Exit ")
+    print("6. floor division (//) ")
+    print("7. exit form calculator")
     
     x= int(input("enter the choice "))
-    if(x>0 and x<=5):
+    if(x>0 and x<=6):
            
            a= int(input("enter the 1st value = "))
            b= int(input("enter the 2nd value = "))
@@ -30,8 +31,12 @@ while True:
            elif (x==5):
                   c=a**b
                   print(c)
-    elif(x==6):
-        break
+           elif (x==6):
+                  c=a//b 
+                  print(c)
+    elif (x==7):
+       print("exit from calculator")
+       break
     else:
         print("try again")
 
